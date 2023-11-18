@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px) and (min-width: 280px ) { 
+    .weclome{
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      align-items: center;
+      gap: 2rem;
+      height: 100%;
+    }
+
+
+
+    .navigationbar{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        align-items: center;
+        gap: 2rem;
+        height: 100%;
+      }
+      
+
+      body {
+        line-height: inherit;
+      }
+ 
+      div.content.header-content.massive {
+        color: #FFFFFF;
+        font-size: 20;
+        padding: 14px;
+      }

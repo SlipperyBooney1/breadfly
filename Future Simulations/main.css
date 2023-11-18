@@ -1,0 +1,134 @@
+/** Screen Size queries 
+
+This is fun (Sarcasm)
+BlueFS might break something because
+he will be testing it. LOL
+
+BlueFS: Someone broke something...
+SlipperyBooney1: uhhh, me!
+BlueFS: Why?
+SlipperyBooney1: I was seeing what limit the website
+can go to.
+BlueFS: but I did that a few days ago
+SlipperyBooney1: oh...whoops
+BlueFS: Yeah...
+
+**/
+
+@media screen and (max-width: 1000px) and (min-width: 280px ) { 
+  .weclome{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+  }
+ 
+  .navigationbar{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+  }
+  
+    
+}
+
+
+body {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 0%;
+    margin: 10%;
+    font-family:'IBM Plex Sans', sans-serif;
+}
+h1 {
+  padding: 50px 1px;
+  margin: 0px;
+}
+
+h2 {
+    padding: 200px 1px;
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: left;
+}
+p {
+    text-align: center;
+    padding-left: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: medium;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+}
+ a {
+  display: block;
+  padding: 8px;
+
+ }
+  header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 10px 1500px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99%;
+  }
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 640;
+  }
+
+.image787 {
+  background-image: url(homepage787.png);
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 60%;
+  height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** 
+User Guide Section - Don't touch
+**/
+
+
+
+
+
+
+
+
+
+
