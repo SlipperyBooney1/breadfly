@@ -15,6 +15,127 @@ BlueFS: Yeah...
 
 **/
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+  --color-primary: black;
+  --color-success: #00bf8e;
+  --color-warning: #f7c94b;
+  --color-danger: #f75842;
+  --color-danger-variant: rgba(247, 88, 66, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.7);
+  --color-black: #000;
+  --color-bg: #a0d0ec;
+  --color-bg1: #4995fd;
+  --color-bg2: #005589;
+  --color-bg3: #002846;
+
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm:94%;
+
+  --transition: all 400ms ease;
+}
+
+
+body {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 0%;
+    font-family:'IBM Plex Sans', sans-serif;
+}
+
+/* page nav bar and header*/
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  width: 100vw;
+  height: 5vh;
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  z-index: 99%;
+}
+
+.navigation{
+  margin-right: 5vw;
+}
+
+.navigation a {
+  position: relative;
+  font-size: 1.5em;
+  color: var(--color-bg2);
+  transition: .5s;
+  text-decoration: none;
+  font-weight: 640;
+  transition: var(--transition);
+}
+
+.navigation a:hover{
+  transition: var(--transition);
+  text-decoration: underline;
+  color: var(--color-bg3);
+  font-size: 1.65em;
+}
+
+
+
+h1 {
+  padding: 50px 1px;
+  margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: left;
+}
+p {
+    text-align: center;
+    padding-left: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: medium;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+}
+ a {
+  display: block;
+  padding: 8px;
+
+ }
+
+  
+
+.image787 {
+  background-image: url(homepage787.png);
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 60%;
+  height: 1000px;
+}
+
+
+/**
 @media screen and (max-width: 1000px) and (min-width: 100px ) { 
   .weclome{
     justify-content: center;
@@ -40,73 +161,6 @@ BlueFS: Yeah...
 }
 
 
-body {
-    background-color: rgb(243, 243, 243);
-    text-align: center;
-    padding: 0%;
-    margin: 10%;
-    font-family:'IBM Plex Sans', sans-serif;
-}
-h1 {
-  padding: 50px 1px;
-  margin: 0px;
-}
-
-h2 {
-    padding: 200px 1px;
-    margin: 0px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    text-align: left;
-}
-p {
-    text-align: center;
-    padding-left: 0%;
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: medium;
-}
-
-ul {
-  list-style-type: none;
-}
-li {
-  float: left;
-}
- a {
-  display: block;
-  padding: 8px;
-
- }
-  header {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    padding: 10px 1500px;
-    background-color: cadetblue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99%;
-  }
-  
-  .navigation a {
-    position: relative;
-    font-size: 1.1em;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: 640;
-  }
-
-.image787 {
-  background-image: url(homepage787.png);
-  display: block;
-  margin-left: 50px;
-  margin-right: 50px;
-  width: 60%;
-  height: 1000px;
-}
 
 
 
@@ -115,11 +169,6 @@ li {
 
 
 
-
-
-
-
-/** 
 User Guide Section - Don't touch
 **/
 
